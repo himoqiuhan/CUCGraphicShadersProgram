@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Class2_TessellationOceanWave
+  m_Shader: {fileID: 4800000, guid: 90586b8f02aa29448b161190be5ecf52, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeightControlTex:
+        m_Texture: {fileID: 2800000, guid: a6484e74d7b6d844bacc56c186346d11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ae99a0460ec234e41ac56135a64ad1e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NearShoreFoamMask:
+        m_Texture: {fileID: 2800000, guid: 1a1b1d72230331d49ad2dd6c288f0b02, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveFallOffTex:
+        m_Texture: {fileID: 2800000, guid: a6484e74d7b6d844bacc56c186346d11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveMaskTex:
+        m_Texture: {fileID: 2800000, guid: fe0a330e666ecf64bb5e0946eb05883d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _TessellationGrade: 32
+    - _WaveHeight: 0.625
+    - _WaveSpeed: 0.456
+    m_Colors:
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColer1: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColer2: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColer3: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColer4: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColor1: {r: 0.816, g: 1, b: 0.9629736, a: 1}
+    - _WaterColor2: {r: 0, g: 1, b: 0.95156765, a: 1}
+    - _WaterColor3: {r: 0, g: 0.7176471, b: 1, a: 1}
+    - _WaterColor4: {r: 0, g: 0.3848688, b: 0.9716981, a: 1}
+    - _WaveDirSH: {r: 1, g: 1, b: 1, a: 1}
+    - _WaveDirTile: {r: 1, g: 0.5, b: 30, a: 10}
+  m_BuildTextureStacks: []

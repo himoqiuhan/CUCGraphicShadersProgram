@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Class1_Water
+  m_Shader: {fileID: 4800000, guid: 5beba627a0718a7468592b281dec4f45, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisturbNoiseTex:
+        m_Texture: {fileID: 2800000, guid: a6484e74d7b6d844bacc56c186346d11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c92307d4eb8271f41ad80566c69ad61e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 25790956a670cfb4880027480372ead1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTex:
+        m_Texture: {fileID: 2800000, guid: d560bd20f88899441ac9e7943fa4c2b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DisturbIntensity: 0.504
+    - _RotateAngle: 0.5
+    - _RotateIntensity: 10
+    - _RotateSpeed: 5
+    - _RotationCenter: -0.5
+    - _TempValue: 8.14
+    - _refractionAmount: 0.207
+    - _refrectionAmount: 0.301
+    m_Colors:
+    - _FlowSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _WaterCol: {r: 0, g: 0.5, b: 0.8, a: 1}
+  m_BuildTextureStacks: []
